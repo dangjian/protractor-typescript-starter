@@ -31,5 +31,8 @@
     * 配置pretest：编译typescript代码
     * 配置test：运行protractor
 
+## 项目运行
+* `yarn test`
+
 ## 常见问题
 TODO
