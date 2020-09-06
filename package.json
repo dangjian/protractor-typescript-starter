@@ -1,0 +1,22 @@
+{
+  "name": "protractor-typescript-starter",
+  "version": "1.0.0",
+  "description": "start for protractor & typescript",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "yarn tsc",
+    "test": "protractor ./dist/protractor.conf.js",
+    "tsc": "tsc"
+  },
+  "author": "dangjian",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.8.1",
+    "jasmine-spec-reporter": "^5.0.2",
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "@types/node": "^14.6.4"
+  }
+}
